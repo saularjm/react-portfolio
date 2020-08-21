@@ -1,7 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import Project from "../components/Project";
+import projects from "../projects.json";
 
-function Portfolio() {
+class Portfolio extends Component {
+    state = {projects};
+
+    render() {
     return (
         <div className="container">
 
@@ -18,7 +22,17 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="row">
+      {this.state.projects.map(item => (
+          <Project 
+            key={item.title}
+            title={item.title}
+            description={item.description}
+            image={item.image}
+            url={item.url}
+          />
+      ))}
+
+      {/* <div className="row">
 
         <div className="col-md-4"><Project /></div>
         <div className="col-md-4"><Project /></div>
@@ -37,10 +51,11 @@ function Portfolio() {
         <div className="col-md-4"></div>
         <div className="col-md-4"></div>
         <div className="col-md-4"></div>
-        </div>
+        </div> */}
         </div>
         </div>
     );
+    }
 }
 
 export default Portfolio;
