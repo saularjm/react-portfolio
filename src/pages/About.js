@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/Resume.pdf";
 
 function About() {
     return (
@@ -42,7 +43,7 @@ function About() {
       <hr />
 
       <ul>
-        <li><strong>Email:</strong> <a href="mailto:jake.moaddeli@gmail.com" target="_blank">jake.moaddeli@gmail.com</a></li>
+        <li><strong>Email:</strong> <a href={Resume} target="_blank">jake.moaddeli@gmail.com</a></li>
         <li><strong>Github:</strong> <a href="https://github.com/saularjm" target="_blank">Check out my repositories!</a></li>
         <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saular-moaddeli-889a4b1a0" target="_blank">My profile</a></li>
         <li><strong>Resume:</strong> <a href="assets/Resume.pdf" target="_blank">Click here to view</a></li>

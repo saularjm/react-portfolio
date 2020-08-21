@@ -2,49 +2,49 @@
     {
         "title": "Psychic Game",
         "description": "A guessing game where the user must guess what letter the computer is thinking of!",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/crystal-ball2.jpg",
         "url": "https://saularjm.github.io/psychic-game/"
     },
     {
         "title": "Code Quiz",
         "description": "A timed, multiple choice quiz to test your coding knowledge. Give it a shot!",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/question-mark-img.png",
         "url": "https://saularjm.github.io/code-quiz/"
     },
     {
         "title": "Workday Planner",
         "description": "A daily planner application to help you schedule your work day! Save your events to keep track.",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/calendar-img.png",
         "url": "https://saularjm.github.io/day-planner/"
     },
     {
         "title": "Weather Dashboard",
         "description": "A web application where you can search for a city and retrieve current/future conditions.",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/weather.png",
         "url": "https://saularjm.github.io/weather-dash/"
     },
     {
         "title": "Netflix and Chilies",
         "description": "A web application to search meal delivery options and streaming movies to accompany them.",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/net-and-chill.png",
         "url": "https://saularjm.github.io/netflix-and-chilies/"
     },
     {
         "title": "Team Profile Generator",
         "description": "A Node CLI app to build a team profile HTML file based on user input of employee information.",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/team-profile.png",
         "url": "https://github.com/saularjm/employee-template-engine"
     },
     {
         "title": "Note Taker",
         "description": "An Express.js application that lets the user write, save, and delete notes.",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/note-taker.PNG",
         "url": "https://fast-savannah-84183.herokuapp.com/"
     },
     {
         "title": "Beyond Vacation",
         "description": "A full-stack application for posting and reserving rentals for outdoor vacations!",
-        "image": "",
+        "image": "https://saularjm.github.io/portfolio/assets/beyondVacation.PNG",
         "url": "https://beyond-vacation.herokuapp.com/"
     }
 ]
