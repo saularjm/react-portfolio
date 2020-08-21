@@ -1,38 +1,50 @@
 [
     {
-        "title": "",
-        "description": "",
+        "title": "Psychic Game",
+        "description": "A guessing game where the user must guess what letter the computer is thinking of!",
         "image": "",
-        "url": ""
+        "url": "https://saularjm.github.io/psychic-game/"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Code Quiz",
+        "description": "A timed, multiple choice quiz to test your coding knowledge. Give it a shot!",
         "image": "",
-        "url": ""
+        "url": "https://saularjm.github.io/code-quiz/"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Workday Planner",
+        "description": "A daily planner application to help you schedule your work day! Save your events to keep track.",
         "image": "",
-        "url": ""
+        "url": "https://saularjm.github.io/day-planner/"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Weather Dashboard",
+        "description": "A web application where you can search for a city and retrieve current/future conditions.",
         "image": "",
-        "url": ""
+        "url": "https://saularjm.github.io/weather-dash/"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Netflix and Chilies",
+        "description": "A web application to search meal delivery options and streaming movies to accompany them.",
         "image": "",
-        "url": ""
+        "url": "https://saularjm.github.io/netflix-and-chilies/"
     },
     {
-        "title": "",
-        "description": "",
+        "title": "Team Profile Generator",
+        "description": "A Node CLI app to build a team profile HTML file based on user input of employee information.",
         "image": "",
-        "url": ""
+        "url": "https://github.com/saularjm/employee-template-engine"
+    },
+    {
+        "title": "Note Taker",
+        "description": "An Express.js application that lets the user write, save, and delete notes.",
+        "image": "",
+        "url": "https://fast-savannah-84183.herokuapp.com/"
+    },
+    {
+        "title": "Beyond Vacation",
+        "description": "A full-stack application for posting and reserving rentals for outdoor vacations!",
+        "image": "",
+        "url": "https://beyond-vacation.herokuapp.com/"
     }
 ]
