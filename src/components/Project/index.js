@@ -1,20 +1,21 @@
 import React from "react";
+import "./style.css"
 
 function Project(props) {
     return (
-        <div class="card mb-3 mx-auto text-center" style="width: 85%; height: 495px;">
+        <div className="card mb-3 mx-auto text-center">
 
-            <img src={props.image} class="card-img-top" alt="Crystal ball" />
+            <img src={props.image} className="card-img-top" alt="Crystal ball" />
 
-              <div class="card-body">
+              <div className="card-body">
 
-                <h5 class="card-title">{props.title}</h5>
+                <h5 className="card-title">{props.title}</h5>
 
-                <p class="card-text">{props.description}</p>
+                <p className="card-text">{props.description}</p>
               </div>
 
-              <div class="card-body">
-                <a href={props.url} class="card-link">Check it out!</a>
+              <div className="card-body">
+                <a href={props.url} className="card-link">Check it out!</a>
               </div>
           </div>
     );

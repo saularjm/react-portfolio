@@ -3,28 +3,28 @@ import Resume from "../assets/Resume.pdf";
 
 function About() {
     return (
-        <div class="container">
+        <div className="container">
 
-    <div class="jumbotron col-md-10">
+    <div className="jumbotron col-md-10">
       
-      <div class="row">
+      <div className="row">
 
-        <div class="col">
+        <div className="col">
 
-          <div class="page-header mb-4">
+          <div className="page-header mb-4">
             <h1>About Me</h1>
             <hr />
           </div>
         </div> 
       </div>   
 
-      <div class="row">
+      <div className="row">
 
-        <div class="col-md-3 padding:20px">
-          <img src="assets/coding-screen.jpg" alt="coding-screen" class="img-thumbnail img-responsive" />
+        <div className="col-md-3 padding:20px">
+          <img src="https://saularjm.github.io/portfolio/assets/coding-screen.jpg" alt="coding-screen" className="img-thumbnail img-responsive" />
         </div>
 
-        <div class="col-md-9">
+        <div className="col-md-9">
           <p>
             My name is Saular Moaddeli. I used to be a personal trainer, but I've changed
             my career course to coding, including programming in Java and full-stack web development.
@@ -37,16 +37,16 @@ function About() {
       </div>
     </div>
 
-    <div class="col-md-10">
+    <div className="col-md-10">
 
       <header><h2>Contact Info</h2></header>
       <hr />
 
       <ul>
-        <li><strong>Email:</strong> <a href={Resume} target="_blank">jake.moaddeli@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="https://github.com/saularjm" target="_blank">Check out my repositories!</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saular-moaddeli-889a4b1a0" target="_blank">My profile</a></li>
-        <li><strong>Resume:</strong> <a href="assets/Resume.pdf" target="_blank">Click here to view</a></li>
+        <li><strong>Email:</strong> <a href={Resume} target="_blank" rel="noopener noreferrer">jake.moaddeli@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="https://github.com/saularjm" target="_blank" rel="noopener noreferrer">Check out my repositories!</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saular-moaddeli-889a4b1a0" target="_blank" rel="noopener noreferrer">My profile</a></li>
+        <li><strong>Resume:</strong> <a href="https://saularjm.github.io/portfolio/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">Click here to view</a></li>
       </ul>
     </div>
   </div>
