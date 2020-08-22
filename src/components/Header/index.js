@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 function Header() {
     return (
@@ -7,7 +8,7 @@ function Header() {
             <span className="navbar-brand mb-1 h1">Saular Moaddeli</span>
             <div className="ml-auto" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-            <button className="nav-item">
+            <button className="nav-item bg-info">
             <Link
               to="/"
               className={
@@ -19,7 +20,7 @@ function Header() {
               About
             </Link>
             </button>
-          <button className="nav-item">
+          <button className="nav-item bg-info">
           <Link
               to="/portfolio"
               className={
