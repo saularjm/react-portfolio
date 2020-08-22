@@ -8,7 +8,7 @@ function Header() {
             <span className="navbar-brand mb-1 h1">Saular Moaddeli</span>
             <div className="ml-auto" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-            <button className="nav-item bg-info">
+            <a className="nav-item">
             <Link
               to="/"
               className={
@@ -19,8 +19,8 @@ function Header() {
             >
               About
             </Link>
-            </button>
-          <button className="nav-item bg-info">
+            </a>
+          <a className="nav-item">
           <Link
               to="/portfolio"
               className={
@@ -31,7 +31,7 @@ function Header() {
             >
               Portfolio
             </Link>
-              </button>
+              </a>
         </div>
       </div>
   </nav>
