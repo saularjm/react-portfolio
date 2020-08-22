@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Project from "../components/Project";
 import projects from "../projects.json";
+import "./style.css";
 
 class Portfolio extends Component {
     state = {projects};
@@ -22,6 +23,7 @@ class Portfolio extends Component {
         </div>
       </div>
 
+<div className="cards">
       {this.state.projects.map(item => (
           <Project 
             key={item.title}
@@ -31,6 +33,7 @@ class Portfolio extends Component {
             url={item.url}
           />
       ))}
+      </div>
 
       {/* <div className="row">
 

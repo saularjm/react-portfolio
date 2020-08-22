@@ -3,7 +3,7 @@ import "./style.css"
 
 function Project(props) {
     return (
-        <div className="card mb-3 mx-auto text-center">
+        <div className="card mb-3 mx-auto text-center col-md-4">
 
             <img src={props.image} className="card-img-top" alt="Crystal ball" />
 
