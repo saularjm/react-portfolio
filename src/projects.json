@@ -46,5 +46,11 @@
         "description": "A full-stack application for posting and reserving rentals for outdoor vacations!",
         "image": "https://saularjm.github.io/portfolio/assets/beyondVacation.PNG",
         "url": "https://beyond-vacation.herokuapp.com/"
+    },
+    {
+        "title": "Friends Directory",
+        "description": "A simple React.js application to filter and sort cards about characters from Friends.",
+        "image": "https://cdn.vox-cdn.com/thumbor/WR2f-PO6_gC1qy0K6wY7KOUicgQ=/0x360:2592x1656/fit-in/1200x600/cdn.vox-cdn.com/uploads/chorus_asset/file/15002495/friendscast.0.0.1429818191.jpg",
+        "url": "https://peaceful-fjord-70983.herokuapp.com/"
     }
 ]
