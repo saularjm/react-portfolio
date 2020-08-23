@@ -21,4 +21,4 @@ to the deployed applications.
 ## Deployed
 
 - Check out the deployed app:
-    - 
+    - https://sleepy-thicket-33262.herokuapp.com/
